@@ -13,6 +13,11 @@
 		90540A561BA0CA820077C4B2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90540A551BA0CA820077C4B2 /* Images.xcassets */; };
 		90540A591BA0CA820077C4B2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 90540A571BA0CA820077C4B2 /* LaunchScreen.xib */; };
 		90540A651BA0CA820077C4B2 /* __parseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90540A641BA0CA820077C4B2 /* __parseTests.swift */; };
+		90540A701BA0CB270077C4B2 /* dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 90540A6F1BA0CB270077C4B2 /* dummy.m */; };
+		90540A721BA0CF9B0077C4B2 /* signupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90540A711BA0CF9B0077C4B2 /* signupViewController.swift */; };
+		90540A741BA0D4A80077C4B2 /* ChatroomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90540A731BA0D4A80077C4B2 /* ChatroomViewController.swift */; };
+		90540A761BA0E81B0077C4B2 /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90540A751BA0E81B0077C4B2 /* MessageCell.swift */; };
+		F4B050DB048ADF7584955325 /* libPods-3-parse.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E2C8FA75BF2E44A899D7004A /* libPods-3-parse.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +31,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		15CE61E2887E7C5F79EA4728 /* Pods-3-parse.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-3-parse.release.xcconfig"; path = "Pods/Target Support Files/Pods-3-parse/Pods-3-parse.release.xcconfig"; sourceTree = "<group>"; };
 		90540A491BA0CA820077C4B2 /* 3-parse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "3-parse.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		90540A4D1BA0CA820077C4B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		90540A4E1BA0CA820077C4B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +42,13 @@
 		90540A5E1BA0CA820077C4B2 /* 3-parseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "3-parseTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		90540A631BA0CA820077C4B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		90540A641BA0CA820077C4B2 /* __parseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = __parseTests.swift; sourceTree = "<group>"; };
+		90540A6E1BA0CB270077C4B2 /* 3-parse-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "3-parse-Bridging-Header.h"; sourceTree = "<group>"; };
+		90540A6F1BA0CB270077C4B2 /* dummy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = dummy.m; sourceTree = "<group>"; };
+		90540A711BA0CF9B0077C4B2 /* signupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = signupViewController.swift; sourceTree = "<group>"; };
+		90540A731BA0D4A80077C4B2 /* ChatroomViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatroomViewController.swift; sourceTree = "<group>"; };
+		90540A751BA0E81B0077C4B2 /* MessageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
+		BAD845239F5D03F62A67C00B /* Pods-3-parse.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-3-parse.debug.xcconfig"; path = "Pods/Target Support Files/Pods-3-parse/Pods-3-parse.debug.xcconfig"; sourceTree = "<group>"; };
+		E2C8FA75BF2E44A899D7004A /* libPods-3-parse.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-3-parse.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4B050DB048ADF7584955325 /* libPods-3-parse.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,12 +70,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		28B26843F7B565817D8D1093 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E2C8FA75BF2E44A899D7004A /* libPods-3-parse.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6F8C4576E4D6124A452E960D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BAD845239F5D03F62A67C00B /* Pods-3-parse.debug.xcconfig */,
+				15CE61E2887E7C5F79EA4728 /* Pods-3-parse.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		90540A401BA0CA820077C4B2 = {
 			isa = PBXGroup;
 			children = (
 				90540A4B1BA0CA820077C4B2 /* 3-parse */,
 				90540A611BA0CA820077C4B2 /* 3-parseTests */,
 				90540A4A1BA0CA820077C4B2 /* Products */,
+				6F8C4576E4D6124A452E960D /* Pods */,
+				28B26843F7B565817D8D1093 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,10 +112,15 @@
 			children = (
 				90540A4E1BA0CA820077C4B2 /* AppDelegate.swift */,
 				90540A501BA0CA820077C4B2 /* ViewController.swift */,
+				90540A711BA0CF9B0077C4B2 /* signupViewController.swift */,
+				90540A731BA0D4A80077C4B2 /* ChatroomViewController.swift */,
 				90540A521BA0CA820077C4B2 /* Main.storyboard */,
 				90540A551BA0CA820077C4B2 /* Images.xcassets */,
 				90540A571BA0CA820077C4B2 /* LaunchScreen.xib */,
 				90540A4C1BA0CA820077C4B2 /* Supporting Files */,
+				90540A6F1BA0CB270077C4B2 /* dummy.m */,
+				90540A6E1BA0CB270077C4B2 /* 3-parse-Bridging-Header.h */,
+				90540A751BA0E81B0077C4B2 /* MessageCell.swift */,
 			);
 			path = "3-parse";
 			sourceTree = "<group>";
@@ -119,9 +157,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 90540A681BA0CA820077C4B2 /* Build configuration list for PBXNativeTarget "3-parse" */;
 			buildPhases = (
+				E5636E716288942F457B6CE8 /* Check Pods Manifest.lock */,
 				90540A451BA0CA820077C4B2 /* Sources */,
 				90540A461BA0CA820077C4B2 /* Frameworks */,
 				90540A471BA0CA820077C4B2 /* Resources */,
+				F2ECC300531ECA524E23069C /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,13 +247,50 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		E5636E716288942F457B6CE8 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F2ECC300531ECA524E23069C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-3-parse/Pods-3-parse-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		90540A451BA0CA820077C4B2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90540A701BA0CB270077C4B2 /* dummy.m in Sources */,
 				90540A511BA0CA820077C4B2 /* ViewController.swift in Sources */,
+				90540A721BA0CF9B0077C4B2 /* signupViewController.swift in Sources */,
+				90540A741BA0D4A80077C4B2 /* ChatroomViewController.swift in Sources */,
 				90540A4F1BA0CA820077C4B2 /* AppDelegate.swift in Sources */,
+				90540A761BA0E81B0077C4B2 /* MessageCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,21 +417,28 @@
 		};
 		90540A691BA0CA820077C4B2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAD845239F5D03F62A67C00B /* Pods-3-parse.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "3-parse/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "3-parse/3-parse-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		90540A6A1BA0CA820077C4B2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15CE61E2887E7C5F79EA4728 /* Pods-3-parse.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "3-parse/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "3-parse/3-parse-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -411,6 +495,7 @@
 				90540A6A1BA0CA820077C4B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		90540A6B1BA0CA820077C4B2 /* Build configuration list for PBXNativeTarget "3-parseTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +504,7 @@
 				90540A6D1BA0CA820077C4B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
